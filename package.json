@@ -45,7 +45,7 @@
   },
   "lint-staged": {
     "frontend/**/*.{js,ts,tsx}": [
-      "yarn typecheck",
+      "bash -c tsc",
       "yarn eslint --fix",
       "yarn prettier --write",
       "yarn vitest related"
