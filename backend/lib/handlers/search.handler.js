@@ -32,8 +32,6 @@ exports.get = async (request, h) => {
       return transformAddress(address, currency, rates)
     }
   } catch (error) {
-    // TODO log the error
-    // console.log(error);
-    return h.response().code(status.INTERNAL_SERVER_ERROR)
+    return h.response(error.message).code(status.INTERNAL_SERVER_ERROR)
   }
 }
