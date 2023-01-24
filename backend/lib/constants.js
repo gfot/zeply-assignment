@@ -1,0 +1,3 @@
+exports.BTC_ADDRESS_MIN_LENGTH = 26
+exports.BTC_TRANSACTION_LENGTH = 64
+exports.CURRENCIES = ['BTC', 'EUR', 'USD']
