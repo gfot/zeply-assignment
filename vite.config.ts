@@ -11,7 +11,7 @@ const resolve = (path: string) => pathResolve(__dirname, path)
 
 export default defineConfig({
   server: {
-    port: 3000,
+    port: 8080,
   },
   plugins: [react(), svgr()],
   resolve: {
