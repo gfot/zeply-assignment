@@ -18,6 +18,7 @@
     "be:test": "vitest backend/test",
     "be:test:watch": "vitest backend/test --watch",
     "be:test:coverage": "vitest backend/test run --coverage",
+    "be:test:ci": "vitest --run",
     "be:lint": "eslint backend",
     "be:lint:fix": "eslint backend --fix",
     "be:format": "prettier backend",
