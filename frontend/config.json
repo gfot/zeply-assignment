@@ -1,0 +1,6 @@
+{
+  "apiUrl": "http://localhost:3000",
+  "websocketUrl": "ws://localhost:3000",
+  "wsMaxRetries": 5,
+  "wsReconnectDelayMs": 5000
+}
