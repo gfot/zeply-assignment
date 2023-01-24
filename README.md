@@ -1,48 +1,22 @@
-<p align="center">
-  <img src=".github/assets/hero-illustration.svg" alt="A developer siting in front of a computer" />
-</p>
-
-# Boilerplate: Vite + React
-
----
-
-This is a [React](https://reactjs.org/) boilerplate using [Vite Builder](https://vitejs.dev/).
-
-## What is inside?
-
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [React-Router](https://reactrouter.com/)
-- [TypeScript](https://typescriptlang.org/)
-- [Styled Components](https://styled-components.com/)
-- [Vitest](https://vitest.dev/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
-- [Lint-Staged](https://github.com/okonet/lint-staged)
-- [Plop](https://plopjs.com/)
+# Zeply code challenge
 
 ## Getting Started
 
-Make a copy:
+Install the dependencies:
 
 ```
-npx degit adeonir/boilerplate-react-vite my-project
-```
-
-Enter the new created folder, initiate a git repository and install the dependencies:
-
-```
-cd my-project
-git init
 yarn install
 ```
 
 ### Development
 
-Run the development server:
+Run the backend development server:
+
+```
+yarn be:dev
+```
+
+Run the frontend development server:
 
 ```
 yarn dev
@@ -66,6 +40,12 @@ yarn preview
 
 ## Commands
 
+- `be:dev`: runs the backend server in development mode
+- `be:test`: runs tests
+- `be:test:coverage`: runs tests with coverage
+- `be:test:watch`: runs tests in watch mode
+- `be:lint`: runs the linter for the backend source code
+- `be:format`: runs prettier to format the backend source code
 - `dev`: runs your application on `localhost:3000`
 - `build`: creates the production build version
 - `preview`: starts a simple server with the build production code
@@ -81,4 +61,4 @@ yarn preview
 
 ---
 
-Made with ♥️ by Adeonir Kohl
+Boilerplate made with ♥️ by Adeonir Kohl
