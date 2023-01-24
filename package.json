@@ -1,12 +1,13 @@
 {
-  "name": "assessment",
+  "name": "zeply-assignment",
   "description": "Zeply code assessment",
   "version": "1.0.0",
+  "private": true,
   "author": "George Foteinopoulos <georgios.foteinopoulos@gmail.com>",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gfot/assessment.git"
+    "url": "git+https://github.com/gfot/zeply-assignment.git"
   },
   "keywords": [
     "zeply",
